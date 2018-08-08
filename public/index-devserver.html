@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EverMarkets</title>
+  <link rel="stylesheet" href="/App.css">
+</head>
+<body>
+<div id="root"></div>
+<script src="/socket.io/socket.io.js"></script>
+<!-- this allows the dev server to be accessed via names other than localhost, i.e. remotely by ip -->
+<script type="text/javascript">
+	<!-- break the closing script tag because JS sees it as closing the entire script body (not escaped by being in a string) -->
+	document.write("<script src='//" + window.location.hostname + ":8080/bundle.js'></scr"+"ipt>");
+</script>
+</body>
+</html>

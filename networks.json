@@ -1,0 +1,92 @@
+[
+  [
+    "BaseFuture",
+    {
+      "4": {
+        "events": {},
+        "links": {},
+        "address": "0x1804c99fa4cde2bbcff5317b59081f5f470ef9b1"
+      }
+    }
+  ],
+  [
+    "EVRToken",
+    {
+      "4": {
+        "events": {},
+        "links": {},
+        "address": "0x93702315a102d662c76d53f5dd61ba51c4239b94"
+      }
+    }
+  ],
+  [
+    "ExchangeRates",
+    {
+      "4": {
+        "events": {},
+        "links": {},
+        "address": "0x5f6e0594fca293be7a96b604ecb1097e143d6d8c"
+      }
+    }
+  ],
+  [
+    "FutureFactory",
+    {
+      "4": {
+        "events": {},
+        "links": {
+          "BaseFuture": "0x1804c99fa4cde2bbcff5317b59081f5f470ef9b1",
+          "FutureInternals": "0x8f44490bb14953b778b90b8bb2cc987c27ed7895",
+          "MarginProviderInternals": "0xf6f7886c2de4e0287c7a30a702ce3dbf9e78931f"
+        },
+        "address": "0xd53aec205de7b8c6d3615a92efa928b88fb1a0e7"
+      }
+    }
+  ],
+  [
+    "FutureInternals",
+    {
+      "4": {
+        "events": {},
+        "links": {
+          "BaseFuture": "0x1804c99fa4cde2bbcff5317b59081f5f470ef9b1"
+        },
+        "address": "0x8f44490bb14953b778b90b8bb2cc987c27ed7895"
+      }
+    }
+  ],
+  [
+    "MarginProvider",
+    {
+      "4": {
+        "events": {},
+        "links": {
+          "BaseFuture": "0x1804c99fa4cde2bbcff5317b59081f5f470ef9b1",
+          "MarginProviderInternals": "0xf6f7886c2de4e0287c7a30a702ce3dbf9e78931f"
+        }
+      }
+    }
+  ],
+  [
+    "MarginProviderInternals",
+    {
+      "4": {
+        "events": {},
+        "links": {
+          "BaseFuture": "0x1804c99fa4cde2bbcff5317b59081f5f470ef9b1"
+        },
+        "address": "0xf6f7886c2de4e0287c7a30a702ce3dbf9e78931f"
+      }
+    }
+  ],
+  [
+    "Migrations",
+    {
+      "4": {
+        "events": {},
+        "links": {},
+        "address": "0xf030cd9513a36b652a652830514329ffd0bdd557"
+      }
+    }
+  ]
+]

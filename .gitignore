@@ -1,0 +1,29 @@
+build/
+node_modules/
+npm-debug.log
+package-lock.json
+data-dev/
+public/dist/
+tmp*/
+coverage.json
+coverage/
+coverageEnv/
+scTopics
+allFiredEvents
+
+logs/*
+!logs/README.md
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/config.yml
+!.elasticbeanstalk/*.global.yml
+
+eb_deploy.zip

@@ -1,0 +1,4 @@
+# m h  dom mon dow   command
+1 21 * * 1-5 cd ~/alpha2 && $(npm bin)/truffle --network rinkeby exec ~/alpha2/scripts/demo_settle_and_create.js > ~/demo_settle_and_create.log
+* 13-22 * * 1-5 cd ~/alpha2 && $(npm bin)/truffle --network rinkeby exec ~/alpha2/scripts/demo_orders.js >> ~/demo_orders.log 2>&1
+* * * * * cd ~/alpha2 && $(npm bin)/truffle --network rinkeby exec ~/alpha2/scripts/demo_call_auctions.js >> ~/demo_call_auctions.log 2>&1
